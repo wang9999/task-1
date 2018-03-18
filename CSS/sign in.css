@@ -55,6 +55,7 @@ input.cellnumber,input.password {
     border: hidden;
     padding: 0;
     margin: 0;
+    font-size: 5vw;
 }
 button.confirm{
     font-size: 5vw;
