@@ -67,7 +67,7 @@ P{ font-size: 3.9vw;
     color: white;
 
 }
-div.p1d{
+div.p1{
     width: 30vw;
     height: 30vw;
     position: absolute;
@@ -75,7 +75,7 @@ div.p1d{
     top:110vw;
     text-align: center;
 }
-div.p2d {
+div.p2 {
     width: 30vw;
     height: 30vw;
     position: absolute;
