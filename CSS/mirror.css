@@ -67,16 +67,30 @@ P{ font-size: 3.9vw;
 
 }
 img.p1{
-    width: 20vw;
-    height: 20vw;
+    width: 16vw;
+    height: 16vw;
     position: absolute;
     left:18.7vw;
     top:110vw;
 }
 img.p2{
-    width: 19vw;
-    height: 20.4vw;
+    width:16vw;
+    height: 16.4vw;
     position: absolute;
     right:18.7vw;
     top:110vw;
+}
+span.p1txt{
+     font-size: 5vw;
+     color: white;
+     position: absolute;
+     top: 130vw;
+     left: 15vw;
+ }
+span.p2txt{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: 130vw;
+    right: 15vw;
 }
