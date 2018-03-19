@@ -65,7 +65,7 @@ button.confirm{
     width: 100vw;
     height: 15vw;
     background-color:  #5fc0cd;
-    border: hidden;
+    border: none;
     color: white;
 
 
