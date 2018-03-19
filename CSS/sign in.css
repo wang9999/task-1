@@ -46,19 +46,20 @@ form.f1 ,form.f2{
 
 }
 img.p1,img.p2 {
-    width: 15%;
+    width: 20%;
     height: 100%;
     float: left;
 
 }
 input.cellnumber,input.password {
-    width: 85% ;
+    width: 80% ;
     height: 100%;
     float: left;
     border: hidden;
     padding: 0;
     margin: 0;
     font-size: 5vw;
+    outline: none;
 }
 button.confirm{
     font-size: 5vw;
@@ -77,3 +78,7 @@ P{
     right: 10vw;
 }
 
+a.n1,a.n2 {
+    text-decoration:none;
+    color: white;
+}
