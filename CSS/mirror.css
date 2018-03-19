@@ -1,3 +1,4 @@
+
 body{
     padding: auto;
     margin: auto;
@@ -41,7 +42,7 @@ span.mirror{
 div.foot{
     background:#68cdd5 ;
     width: 100vw;
-    height: 155vw;
+    height: 160vw;
     position: relative;
 }
 img.arrow2{
@@ -66,31 +67,33 @@ P{ font-size: 3.9vw;
     color: white;
 
 }
-img.p1{
+div.p1d{
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    left:13vw;
+    top:110vw;
+    text-align: center;
+}
+div.p2d {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    right: 13vw;
+    top: 110vw;
+    text-align: center;
+}
+img{
     width: 16vw;
     height: 16vw;
-    position: absolute;
-    left:18.7vw;
-    top:110vw;
+
 }
-img.p2{
-    width:16vw;
-    height: 16.4vw;
-    position: absolute;
-    right:18.7vw;
-    top:110vw;
-}
-span.p1txt{
+
+span{
      font-size: 5vw;
      color: white;
-     position: absolute;
-     top: 130vw;
-     left: 15vw;
+    text-align: center;
+
  }
-span.p2txt{
-    font-size: 5vw;
-    color: white;
-    position: absolute;
-    top: 130vw;
-    right: 15vw;
-}
+
+
