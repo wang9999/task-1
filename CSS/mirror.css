@@ -82,6 +82,7 @@ div.p2 {
     right: 13vw;
     top: 110vw;
     text-align: center;
+    float: left;
 }
 img{
     width: 16vw;
