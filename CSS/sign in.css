@@ -14,18 +14,21 @@ span.register {
     position: absolute;
     left: 5vw;
     top: 4vw;
+    color: white;
 }
 span.sign{
     font-size: 5vw;
     position: absolute;
     left: 45vw;
     top: 4vw;
+    color: white;
 }
 span.colse {
     font-size: 5vw;
     position: absolute;
     right: 5vw;
     top: 4vw;
+    color: white;
 }
 div.body{
     width:100vw;
@@ -63,6 +66,7 @@ button.confirm{
     height: 15vw;
     background-color:  #5fc0cd;
     border: hidden;
+    color: white;
 
 
 }
