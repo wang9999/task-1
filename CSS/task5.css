@@ -2,7 +2,6 @@
 body{
     margin: 0;
     padding: 0;
-    overflow: scroll;
 }
 header{
     position: fixed;
@@ -111,7 +110,7 @@ button.call{
 }
 ul {
     position: relative;
-    right:7vw;
+    right:2rem;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -123,41 +122,48 @@ li {
     border-bottom:3px solid  #eef0f1;
 }
 .formleft{
-    width: 20vw;
+    width: 7rem;
     height: 4vw;
-    margin-left: 12vw;
+    margin-left: 3.5rem;
     margin-top: 2vw;
     margin-bottom: 2vw;
     border-right:3px solid  #eef0f1;
+    font-size: 3vw;
+    white-space: nowrap;
 }
 .formright {
     width: 70vw;
     height: 4vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
-    margin-left: 5vw;
+    margin-left: 2rem;
+    font-size: 3vw;
 }
 .formright1 {
     width: 70vw;
     height: 4vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
-    margin-left: 5vw;
+    margin-left: 2rem;
     color: red;
-}
-.lps {
-
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    border-bottom:3px solid  #eef0f1;
-
+    font-size: 3vw;
 }
 .formleft2 {
-    width: 20vw;
+    width: 7rem;
     white-space: nowrap;
-    margin-left: 12vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-left: 3.5rem;
     border-right: 3px solid #eef0f1;
+    font-size: 3vw;
+    padding: 0;
+
+}
+.formright2 {
+    margin-left: 2rem;
+    font-size: 3vw;
+    width: 70vw;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
