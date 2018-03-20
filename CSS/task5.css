@@ -79,7 +79,7 @@ button.call{
 }
 .plus {
      position: relative;
-     top: 1.5rem;
+     top: 1rem;
      left: 0.7rem;
      float: left;
      width: .18rem;
@@ -91,9 +91,10 @@ button.call{
     border-bottom:3px solid  #eef0f1;
    padding-left: 1.5rem;
     width: 100vw;
-    height: 2rem;
+    height: 1.5rem;
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height:.4rem;
+    padding-top: 0;
 
 }
 .ps {
@@ -102,8 +103,8 @@ button.call{
     padding-left: 1.5rem;
     width: 100vw;
     height: 2.5rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 2.5rem;
 }
 .star {
     padding-left: .5rem;
