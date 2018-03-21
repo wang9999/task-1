@@ -172,47 +172,47 @@ footer {
     width: 100vw;
     height: 5rem;
     background-color: #f8fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
 
 }
+
+.fd {
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fdl{
+    height:20px;width:21px;
+}
+.fdr{
+    height:20px;width:23px;
+}
+
 .s5{
-    position: fixed;
-    bottom: 2rem;
-    left:25vw;
+    position: absolute;
     border: none;
     outline: none;
-    height:20px;width:23px;background-position:-79px 0;
+    height:20px;width:23px;background-position:-79.5px 0;
 }
 .s6 {
-    position: fixed;
-    bottom: .5rem;
-    left: 47.95vw;
+    position: absolute;
     border: none;
     outline: none;
     height:47px;width:47px;background-position:-102px 0;
 }
 .s7 {
-    position: fixed;
-    bottom: 2.2rem;
-    right: 24vw;
-    border: none;
+    position: absolute;
     outline: none;
+    border: none;
     height:20px;width:21px;background-position:-58px 0;
 }
-.snb3 {
-    position: fixed;
-    bottom: .6rem;
-    left: 24.6vw;
-    background-image: none;
-    font-size: 1.4rem;
-}
 
-.snb4 {
-    position: fixed;
-    bottom: .6rem;
-   right: 23.4vw;
-    background-image: none;
-    font-size: 1.5rem;
-}
 .btn {
     font-size: 1.5rem;
 }
