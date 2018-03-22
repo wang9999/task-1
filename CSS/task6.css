@@ -55,10 +55,6 @@ span {
     outline: none;
 }
 
-body{
-    width: 100vw;
-
-}
 .container1{
     position: fixed;
     top: 5rem;
