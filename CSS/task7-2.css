@@ -1,3 +1,31 @@
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
 body {
     padding: 0;
     margin: 0;
@@ -7,15 +35,14 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 11rem;
+    height: 6rem;
     background-color:#5fc0cd;
-
-    line-height:4rem ;
+    line-height:3rem ;
 }
 main {
     position: fixed;
-    top: 11rem;
-    bottom: 5rem;
+    top: 6rem;
+    bottom: 3rem;
     width: 100vw;
     overflow: auto;
     background-color:#5fc0cd;
@@ -25,7 +52,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 3rem;
     background-color: #5fc0cd;
 }
 
@@ -36,7 +63,7 @@ span {
     background-size:138px 26px
 }
 .vote {
-    height: 4rem;
+    height: 3rem;
     text-align: center;
 }
 
@@ -58,17 +85,17 @@ span {
 }
 .audio {
     position: fixed;
-    top: 4rem;
+    top: 3rem;
     width: 100vw;
-    height: 3rem;
+    height: 2rem;
     background-color: #b9e9f5;
-    line-height: 3rem;
+    line-height: 2rem;
     padding-left: 5vw;
 
 }
 .s3{
     position: fixed;
-    top: 4.2rem;
+    top: 3.5rem;
     right: 2vw;
     height:26px;
     width:26px;
@@ -76,7 +103,7 @@ span {
 }
 .s4 {
     position: fixed;
-    top:7rem;
+    top:5rem;
     left: 4vw;
     height:6px;
     width:7px;
@@ -85,18 +112,20 @@ span {
 }
 .introduce {
     position: fixed;
-    top: 7rem;
-    padding-left: 8vw;
+    top: 5rem;
+    padding-left: 5vw;
     width: 100vw;
-    height: 4rem;
+    height: 1rem;
     background-color:#5fc0cd ;
     font-size: .5rem;
+    color: white;
+    line-height: 1rem;
 
 }
 
 .box0 {
     width: 20.4vw;
-    margin: 6vw 6.25vw 6vw 6.25vw;
+    margin: 4vw 6.25vw 4vw 6.25vw;
     float: left;
 
 }
@@ -128,11 +157,36 @@ span {
 }
 .box4 {
     width: 20.4vw;
-    height: 9vw;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#5fc0cd;
+}
+.action {
+    background: url(../IMG/task7-2sprites3.png) no-repeat;
+    background-size: 8vw 8vw ;
+    border: none;
+    width: 4vw;
+    height: 4vw;
+    margin: .1vw;
+    visibility: hidden;
 
-
-
+}
+.box0:hover .action {
+    visibility: visible;
+}
+.icon1 {
+    background-position: 0 0;
+}
+.icon2 {
+    background-position: -4vw 0;
+}
+.icon3 {
+    background-position: -4vw -4vw;
+}
+.icon4 {
+    background-position: 0 -4vw;
 }
 
 .s5 {
@@ -149,13 +203,13 @@ span {
 .box0:hover  .s5{z-index: 1;  }
 .output {
     position: fixed;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left: 10vw;
     width: 80vw;
-    height: 3rem;
+    height: 2rem;
     background-color: orange;
     text-align: center;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 a.next {
     text-decoration: none;

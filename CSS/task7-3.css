@@ -43,7 +43,7 @@ header {
 main {
     position: fixed;
     top: 4rem;
-    bottom: 4rem;
+    bottom: 1px;
     width: 100vw;
     overflow: auto;
     background-color:#2aabd2 ;
@@ -107,11 +107,7 @@ footer {
     bottom: 0;
     width: 100vw;
     height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(153,223,240,0.8);
-
+    background-color: rgba(153,223,240,0.4);
 
 }
 
@@ -125,7 +121,9 @@ footer {
     background-color: red;
     border-radius: 10%;
     border: none;
-    outline: none;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
 
 
 
@@ -141,9 +139,5 @@ footer {
     border-radius: 10%;
     border: none;
     outline: none;
-
-
-
-
 
 }
