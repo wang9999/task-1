@@ -164,8 +164,8 @@ span {
     background-color:#5fc0cd;
 }
 .action {
-    background: url(../IMG/task7-2sprites3.png) no-repeat;
-    background-size: 8vw 8vw ;
+    background: url(../IMG/task7-2sprites2.png) no-repeat;
+    background-size: 16vw 4vw ;
     border: none;
     width: 4vw;
     height: 4vw;
@@ -183,10 +183,10 @@ span {
     background-position: -4vw 0;
 }
 .icon3 {
-    background-position: -4vw -4vw;
+    background-position: -8vw 0;
 }
 .icon4 {
-    background-position: 0 -4vw;
+    background-position: -12vw 0;
 }
 
 .s5 {
