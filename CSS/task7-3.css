@@ -1,18 +1,45 @@
-
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
 body {
     padding: 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 4rem;
+    height: 3rem;
     background-color: #2aabd2;
     text-align: center;
-    line-height: 5rem;
-    font-size: 2rem;
+    line-height: 3rem;
+    font-size: .8rem;
     color: white;
     border-bottom: 1px solid white;
 }
@@ -42,11 +69,12 @@ header {
 }
 main {
     position: fixed;
-    top: 4rem;
+    top: 3rem;
     bottom: 1px;
     width: 100vw;
     overflow: auto;
     background-color:#2aabd2 ;
+    font-size: .8rem;
 
 }
 .result {
@@ -67,13 +95,13 @@ main {
 .count {
     padding-top: 2rem;
     width: 80vw;
-    font-size: 2rem;
+    font-size: 1rem;
     color: orange;
 }
 .time {
     padding-top: 2rem;
     width: 80vw;
-    font-size: 1.5rem;
+    font-size: .8rem;
     color: white;
 }
 .number {
@@ -88,7 +116,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    height: 6rem;
+    height: 5rem;
     width: 100vw;
     background-color: white;
     border-bottom: 1px solid gray;
@@ -108,7 +136,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 4rem;
+    height: 3rem;
     background-color: rgba(153,223,240,0.4);
 
 }
@@ -118,13 +146,13 @@ footer {
     left: 8vw;
     bottom: .5rem;
     width: 35vw;
-    height: 3rem;
+    height: 2rem;
     color: white;
     background-color: red;
     border-radius: 10%;
     border: none;
     text-align: center;
-    line-height: 3rem;
+    line-height: 2rem;
     text-decoration: none;
 
 
@@ -135,11 +163,12 @@ footer {
     right: 8vw;
     bottom: .5rem;
     width: 35vw;
-    height: 3rem;
+    height: 2rem;
     color: white;
     background-color:orange;
     border-radius: 10%;
     border: none;
     outline: none;
+    line-height: 2rem;
 
 }
